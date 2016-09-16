@@ -22,79 +22,79 @@ var viewer = new Cesium.Viewer(cesiumContainer,{
 var scene = viewer.scene;
 //var modelMatrix = Cesium.Transforms.eastNorthUpToFixedFrame(Cesium.Cartesian3.fromDegrees(77.599617,12.978874, 0.0));
 var ChinnaswamyStadium = scene.primitives.add(Cesium.Model.fromGltf({
-url : 'Apps/Bengaluru/ChinnaswamyStadium/ChinnaswamyStadium.gltf',
+url : 'Apps/Bengaluru/ChinnaswamyStadium.gltf',
 modelMatrix : Cesium.Transforms.eastNorthUpToFixedFrame(Cesium.Cartesian3.fromDegrees(77.599617,12.978874, 0.0)),
 scale : 1.0
 }));
 
 var BangalorePalace = scene.primitives.add(Cesium.Model.fromGltf({
-url : 'Apps/Bengaluru/BangalorePalace/BangalorePalace.gltf',
+url : 'Apps/Bengaluru/BangalorePalace.gltf',
 modelMatrix : Cesium.Transforms.eastNorthUpToFixedFrame(Cesium.Cartesian3.fromDegrees(77.592043,12.998701, 0.0)),
 scale : 1.0
 }));
 
 var GarudaMall = scene.primitives.add(Cesium.Model.fromGltf({
-url : 'Apps/Bengaluru/GarudaMall/GarudaMall.gltf',
+url : 'Apps/Bengaluru/GarudaMall.gltf',
 modelMatrix : Cesium.Transforms.eastNorthUpToFixedFrame(Cesium.Cartesian3.fromDegrees(77.609665, 12.970019, 0.0)),
 scale : 1.0
 }));
 
 var CentralLibrary = scene.primitives.add(Cesium.Model.fromGltf({
-url : 'Apps/Bengaluru/CentralLibrary/CentralLibrary.gltf',
+url : 'Apps/Bengaluru/CentralLibrary.gltf',
 modelMatrix : Cesium.Transforms.eastNorthUpToFixedFrame(Cesium.Cartesian3.fromDegrees(77.590622, 12.974318, 0.0)),
 scale : 1.0
 }));
 
 var HighCourtKarnataka = scene.primitives.add(Cesium.Model.fromGltf({
-url : 'Apps/Bengaluru/HighCourtKarnataka/HighCourtKarnataka.gltf',
+url : 'Apps/Bengaluru/HighCourtKarnataka.gltf',
 modelMatrix : Cesium.Transforms.eastNorthUpToFixedFrame(Cesium.Cartesian3.fromDegrees(77.5914602, 12.9777929, 0.0)),
 scale : 1.0
 }));
 
 var InfosysPyramid = scene.primitives.add(Cesium.Model.fromGltf({
-url : 'Apps/Bengaluru/InfosysPyramid/InfosysPyramid.gltf',
+url : 'Apps/Bengaluru/InfosysPyramid.gltf',
 modelMatrix : Cesium.Transforms.eastNorthUpToFixedFrame(Cesium.Cartesian3.fromDegrees(77.667711, 12.849969, 0.0)),
 scale : 1.0
 }));
 
 var LeelaPalace = scene.primitives.add(Cesium.Model.fromGltf({
-url : 'Apps/Bengaluru/LeelaPalace/LeelaPalace.gltf',
+url : 'Apps/Bengaluru/LeelaPalace.gltf',
 modelMatrix : Cesium.Transforms.eastNorthUpToFixedFrame(Cesium.Cartesian3.fromDegrees(77.648412, 12.960790, 0.0)),
 scale : 1.0
 }));
 
 var PublicUtilityBuilding = scene.primitives.add(Cesium.Model.fromGltf({
-url : 'Apps/Bengaluru/PublicUtilityBuilding/PublicUtilityBuilding.gltf',
+url : 'Apps/Bengaluru/PublicUtilityBuilding.gltf',
 modelMatrix : Cesium.Transforms.eastNorthUpToFixedFrame(Cesium.Cartesian3.fromDegrees(77.609736, 12.974232, 0.0)),
 scale : 1.0
 }));
 
 var TownHall = scene.primitives.add(Cesium.Model.fromGltf({
-url : 'Apps/Bengaluru/TownHall/TownHall.gltf',
+url : 'Apps/Bengaluru/TownHall.gltf',
 modelMatrix : Cesium.Transforms.eastNorthUpToFixedFrame(Cesium.Cartesian3.fromDegrees(77.585780, 12.963784, 0.0)),
 scale : 1.0
 }));
 
 var UBCity = scene.primitives.add(Cesium.Model.fromGltf({
-url : 'Apps/Bengaluru/UBCity/UBCity.gltf',
+url : 'Apps/Bengaluru/UBCity.gltf',
 modelMatrix : Cesium.Transforms.eastNorthUpToFixedFrame(Cesium.Cartesian3.fromDegrees(77.596062, 12.971588, 0.0)),
 scale : 1.0
 }));
 
 var VidhanaSoudha = scene.primitives.add(Cesium.Model.fromGltf({
-url : 'Apps/Bengaluru/VidhanaSoudha/VidhanaSoudha.gltf',
+url : 'Apps/Bengaluru/VidhanaSoudha.gltf',
 modelMatrix : Cesium.Transforms.eastNorthUpToFixedFrame(Cesium.Cartesian3.fromDegrees(77.590712, 12.979619, 0.0)),
 scale : 1.0
 }));
 
 var VisvesvarayaTower = scene.primitives.add(Cesium.Model.fromGltf({
-url : 'Apps/Bengaluru/VisvesvarayaTower/VisvesvarayaTower.gltf',
+url : 'Apps/Bengaluru/VisvesvarayaTower.gltf',
 modelMatrix : Cesium.Transforms.eastNorthUpToFixedFrame(Cesium.Cartesian3.fromDegrees(77.595481, 12.982021, 0.0)),
 scale : 1.0
 }));
 
 var WTC = scene.primitives.add(Cesium.Model.fromGltf({
-url : 'Apps/Bengaluru/WTC/WTC.gltf',
+url : 'Apps/Bengaluru/WTC.gltf',
 modelMatrix : Cesium.Transforms.eastNorthUpToFixedFrame(Cesium.Cartesian3.fromDegrees(77.556033, 13.012195, 0.0)),
 scale : 1.0
 }));
