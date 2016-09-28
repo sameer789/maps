@@ -14,6 +14,14 @@ var viewer = new Cesium.Viewer(cesiumContainer,{
     fullscreenElement : cesiumContainer,
     imageryProvider : new Cesium.createOpenStreetMapImageryProvider()
     });
+
+viewer.dataSources.add(Cesium.GeoJsonDataSource.load('Assets/Data/india_states.geojson'));
+//, {
+  //stroke: Cesium.Color.HOTPINK,
+  //fill: Cesium.Color.PINK,
+  //strokeWidth: 3,
+  //markerSymbol: '?'
+//}));
 //viewer.scene.frameState.creditDisplay.removeDefaultCredit(viewer.cesiumWidget.cesiumCredit);
 //viewer.imageryLayers.removeAll()
 //viewer.imageryLayers.addImageryProvider(Cesium.createOpenStreetMapImageryProvider())
